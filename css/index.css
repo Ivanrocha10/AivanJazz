@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ed4d1b;
+  --color-secondary: #ff9a3c;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gradient1: #ffe7d1;
+  --color-gradient2: #fff2e6;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    var(--color-gradient1) 0%,
+    var(--color-gradient2) 100%
+  );
+  padding: 0 1rem;
+}
+
