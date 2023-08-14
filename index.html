@@ -14,30 +14,35 @@
   </head>
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="Logo" />
-      <nav>
-        <a href="@">Início</a>
-        <a href="@">Cursos</a>
-        <a href="@">Eventos</a>
-        <a href="@">Contato</a>
-      </nav>
-      <a href="@" class="button mt-1 mb-1 mx-auto">Se inscreva!</a>
+      <div class="container">
+        <img src="./assets/logo.svg" alt="Logo" />
+        <nav>
+          <a href="@">Início</a>
+          <a href="@">Cursos</a>
+          <a href="@">Eventos</a>
+          <a href="@">Contato</a>
+        </nav>
+        <a href="@" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+      </div>
     </header>
     <main>
       <section class="hero-section">
-        <img src="./assets/hero-img.svg" alt="Banda" />
-        <div>
-          <h1 class="mt-2">
-            Crie algo
-            <span class="text-primary decoration">impactante</span> com música!
-          </h1>
-          <p class="mt-2 mb-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            quod sint rem tenetur? Ipsum rerum eaque magnam sed aspernatur
-            dolorem odit fuga eos laborum. Perspiciatis modi possimus repellat
-            illum corrupti.
-          </p>
-          <a href="@" class="button">Comece agora</a>
+        <div class="container row-reverse">
+          <img src="./assets/hero-img.svg" alt="Banda" />
+          <div>
+            <h1 class="mt-2">
+              Crie algo
+              <span class="text-primary decoration">impactante</span> com
+              música!
+            </h1>
+            <p class="mt-2 mb-2">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+              quod sint rem tenetur? Ipsum rerum eaque magnam sed aspernatur
+              dolorem odit fuga eos laborum. Perspiciatis modi possimus repellat
+              illum corrupti.
+            </p>
+            <a href="@" class="button">Comece agora</a>
+          </div>
         </div>
       </section>
       <section class="courses-section">
@@ -103,32 +108,36 @@
       </section>
     </main>
     <footer>
-      <div>
-        <img src="./assets/logo.svg" alt="logo" class="mt-1 mb-1" />
-        <p class="mb-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-          debitis quos quod cumque blanditiis omnis labore qui voluptates in
-          quibusdam soluta, vero sequi minima illo, eaque unde veritatis, optio
-          ex!
-        </p>
+      <div class="container">
+        <div class="about-column">
+          <img src="./assets/logo.svg" alt="logo" class="mt-1 mb-1" />
+          <p class="mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+            debitis quos quod cumque blanditiis omnis labore qui voluptates in
+            quibusdam soluta, vero sequi minima illo, eaque unde veritatis,
+            optio ex!
+          </p>
+        </div>
+        <nav class="mb-2">
+          <a href="@">Início</a>
+          <a href="@">Cursos</a>
+          <a href="@">Eventos</a>
+          <a href="@">Contato</a>
+        </nav>
+        <form>
+          <label for="email" class="mb-1"
+            >Receba materiais gratuitos no seu E-mail</label
+          >
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digite seu E-mail"
+            class="mb-1"
+          />
+          <a href="@" class="button mb-2">Quero Receber</a>
+        </form>
       </div>
-      <nav class="mb-2">
-        <a href="@">Início</a>
-        <a href="@">Cursos</a>
-        <a href="@">Eventos</a>
-        <a href="@">Contato</a>
-      </nav>
-      <form>
-        <label for="email" class="mb-1">Receba materiais gratuitos no seu E-mail</label>
-        <input
-          type="text"
-          name="email"
-          id="email"
-          placeholder="Digite seu E-mail"
-          class="mb-1"
-        />
-      </form>
-      <a href="@" class="button mb-2">Quero Receber</a>
     </footer>
   </body>
 </html>
