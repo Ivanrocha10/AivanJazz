@@ -41,6 +41,7 @@ footer {
   border: solid var(--color-black);
   border-width: 0 1px 1px;
   padding: 1.25rem;
+  z-index: 100;
 }
 
 .logo {

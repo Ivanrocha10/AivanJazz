@@ -1,6 +1,6 @@
 # AivanJazz
 
-O projeto AivanJazz....
+O projeto AivanJazz representa uma amostra gratuita do curso "Programador JavaScript FullStack" oferecido pela plataforma OneBitCode. Este projeto tem como finalidade apresentar um site que disponibiliza uma variedade de cursos abrangendo o universo da música, incluindo jazz, instrumentos musicais e outras áreas relacionadas. As tecnologias usadas incluem HTML, CSS e JavaScript, e foi usada a responsividade para dispositivos de telas menores. Além disso, foi criada uma simples logo utilizando a ferramenta Figma, a qual está junto ao nome da instituição.
 
 ## Demonstração
 
